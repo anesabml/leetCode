@@ -3,5 +3,6 @@ LeetCode Kotlin solutions
 
 # Problems
 
-1. [Two Sum](/src/TwoSum.kt)
-2. [Contains Duplicate](/src/ContainsDuplicate.kt) 
+1. [Two sum](/src/TwoSum.kt)
+2. [Contains duplicate](/src/ContainsDuplicate.kt) 
+2. [Max profit](/src/MaxProfit.kt) 

@@ -1,6 +1,6 @@
 class ContainsDuplicate {
 
-    /** Linear search
+    /** Brute force Linear search
      * Time complexity O(n2)
      * Space complexity O(1)
      */
