@@ -8,7 +8,7 @@ class TwoSum {
      * Loop through each element x and find if there is a value that equals to target - x
      */
     fun twoSum(nums: IntArray, target: Int): IntArray {
-        for (i in 0 until nums.size) {
+        for (i in nums.indices) {
             for (j in i + 1 until nums.size) {
                 if (nums[j] == target - nums[i]) {
                     return intArrayOf(i, j)
