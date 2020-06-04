@@ -4,8 +4,8 @@ import kotlin.math.min
 class MaxProfit {
     /** Brute force
      * Search for the max profit by calculating the profit between all the elements
-     * Time complexity: O(n2)
-     * Space complexity: O(1)
+     * Time complexity : O(n2)
+     * Space complexity : O(1)
      */
     fun maxProfit(prices: IntArray): Int {
         var maxprofit = 0
@@ -20,8 +20,8 @@ class MaxProfit {
 
     /** Optimization
      * So we can get the min price and calculate the profit in the same time
-     * Time complexity: O(n)
-     * Space complexity: O(1)
+     * Time complexity : O(n)
+     * Space complexity : O(1)
      */
     fun maxProfit2(prices: IntArray): Int {
         var minPrice = Int.MAX_VALUE

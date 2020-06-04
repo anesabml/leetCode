@@ -3,9 +3,9 @@ import java.util.*
 class TwoSum {
 
     /** Brute force
-     * Time complexity O(n2)
-     * Space complexity O(1)
      * Loop through each element x and find if there is a value that equals to target - x
+     * Time complexity : O(n2)
+     * Space complexity : O(1)
      */
     fun twoSum(nums: IntArray, target: Int): IntArray {
         for (i in nums.indices) {
@@ -19,9 +19,9 @@ class TwoSum {
     }
 
     /** Using a HashTable
-     * Time complexity O(n)
-     * Space complexity O(n)
      * Insert all the nums values and look for y
+     * Time complexity : O(n)
+     * Space complexity : O(n)
      */
     fun twoSum2(nums: IntArray, target: Int): IntArray {
         val map = HashMap<Int, Int>()
@@ -38,9 +38,9 @@ class TwoSum {
     }
 
     /** Using a HashTable
-     * Time complexity O(n)
-     * Space complexity O(n)
      * Insert all the nums values and look for y
+     * Time complexity : O(n)
+     * Space complexity : O(n)
      */
     fun twoSum3(nums: IntArray, target: Int): IntArray {
         val map = hashMapOf<Int, Int>()

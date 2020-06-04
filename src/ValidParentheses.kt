@@ -12,6 +12,8 @@ class ValidParentheses {
      * If the element at the top of the stack is an opening bracket of the same type, then we pop it off the stack and continue processing.
      * Else, this implies an invalid expression.
      * In the end, if we are left with a stack still having elements, then this implies an invalid expression.
+     * Time complexity : O(n)
+     * Space complexity : O(n)
      */
     fun isValid(s: String): Boolean {
         val mappings =
@@ -32,6 +34,11 @@ class ValidParentheses {
         return stack.empty()
     }
 
+    /** Brute force
+     * Iterate over the array and calculate the multiply resutl
+     * Time complexity : O(n)
+     * Space complexity : O(n)
+     */
     fun isValid2(s: String): Boolean {
         val map = hashMapOf(
             '(' to ')',
