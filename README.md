@@ -10,3 +10,4 @@ LeetCode Kotlin solutions
 5. [Product of array except self](https://leetcode.com/problems/product-of-array-except-self/) 
 6. [Maximum subarray](https://leetcode.com/problems/maximum-subarray/) 
 7. [Three sum](https://leetcode.com/problems/3sum/) 
+8. [Merge intervals](https://leetcode.com/problems/merge-intervals/) 
