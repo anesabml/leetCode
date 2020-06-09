@@ -6,9 +6,8 @@ class ValidAnagram {
      * Space complexity : O(1)
      */
     fun isAnagram(s: String, t: String): Boolean {
-        if (s.length != t.length) {
-            return false
-        }
+        if (s.length != t.length) return false
+
         val str1 = s.toCharArray().sortedArray()
         val str2 = t.toCharArray().sortedArray()
         return str1.contentEquals(str2)
@@ -20,9 +19,8 @@ class ValidAnagram {
      * Space complexity : O(1)
      */
     fun isAnagram2(s: String, t: String): Boolean {
-        if (s.length != t.length) {
-            return false
-        }
+        if (s.length != t.length) return false
+
         val counter = IntArray(26)
         for (i in s.indices) {
             counter[s[i] - 'a']++
@@ -42,9 +40,8 @@ class ValidAnagram {
      * Space complexity : O(1)
      */
     fun isAnagram3(s: String, t: String): Boolean {
-        if (s.length != t.length) {
-            return false
-        }
+        if (s.length != t.length) return false
+
         val counter = hashMapOf<Int, Int>()
         for (i in s.indices) {
             counter[s[i] - 'a'] = counter.getOrDefault(s[i] - 'a', 0) + 1
@@ -66,6 +63,7 @@ class ValidAnagram {
      */
     fun isAnagram4(s: String, t: String): Boolean {
         if (s.length != t.length) return false
+
         for (char in 'a'..'z') {
             if (t.count { it == char } != s.count { it == char }) {
                 return false
