@@ -13,3 +13,4 @@ LeetCode Kotlin solutions
 8. [Merge intervals](https://leetcode.com/problems/merge-intervals/) 
 9. [Group anagrams](https://leetcode.com/problems/group-anagrams/) 
 10. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) 
+11. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
