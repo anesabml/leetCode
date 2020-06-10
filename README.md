@@ -12,3 +12,4 @@ LeetCode Kotlin solutions
 7. [Three sum](https://leetcode.com/problems/3sum/) 
 8. [Merge intervals](https://leetcode.com/problems/merge-intervals/) 
 9. [Group anagrams](https://leetcode.com/problems/group-anagrams/) 
+10. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) 
