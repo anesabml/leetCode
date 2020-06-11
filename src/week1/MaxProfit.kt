@@ -1,3 +1,5 @@
+package week1
+
 import kotlin.math.max
 import kotlin.math.min
 

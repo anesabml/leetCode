@@ -1,3 +1,5 @@
+package week1
+
 class ContainsDuplicate {
 
     /** Brute force Linear search

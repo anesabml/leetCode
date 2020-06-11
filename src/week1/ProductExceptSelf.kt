@@ -1,3 +1,5 @@
+package week1
+
 class ProductExceptSelf {
 
     /** Brute force

@@ -3,6 +3,7 @@ LeetCode Kotlin solutions
 
 # Problems
 
+## Week 1:
 1. [Two sum](https://leetcode.com/problems/two-sum/)
 2. [Contains duplicate](https://leetcode.com/problems/contains-duplicate/) 
 3. [Max profit](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) 
@@ -14,3 +15,6 @@ LeetCode Kotlin solutions
 9. [Group anagrams](https://leetcode.com/problems/group-anagrams/) 
 10. [Maximum product subarray](https://leetcode.com/problems/maximum-product-subarray/) 
 11. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) 
+
+## Week 2:
+1. [Reverse LinkedList](https://leetcode.com/problems/reverse-linked-list/) 

@@ -1,3 +1,5 @@
+package week1
+
 import java.lang.Integer.max
 import java.util.*
 
