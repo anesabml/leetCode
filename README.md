@@ -18,3 +18,4 @@ LeetCode Kotlin solutions
 
 ## Week 2:
 1. [Reverse LinkedList](https://leetcode.com/problems/reverse-linked-list/) 
+1. [LinkedList cycle](https://leetcode.com/problems/linked-list-cycle/) 
