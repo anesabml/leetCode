@@ -1,5 +1,7 @@
 package week1
 
+import kotlin.system.measureNanoTime
+
 class ProductExceptSelf {
 
     /** Brute force
@@ -66,22 +68,14 @@ class ProductExceptSelf {
 
 
 fun main() {
-    val productExceptSelf = ProductExceptSelf()
     val input = intArrayOf(2, 7, 11, 15)
+    val productExceptSelf = ProductExceptSelf()
 
-    val firstStartTime = System.currentTimeMillis()
-    println(productExceptSelf.productExceptSelf(input).contentToString())
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(productExceptSelf.productExceptSelf(input).contentToString()) }
+    val secondSolutionTime = measureNanoTime { println(productExceptSelf.productExceptSelf2(input).contentToString()) }
+    val thirdSolutionTime = measureNanoTime { println(productExceptSelf.productExceptSelf3(input).contentToString()) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(productExceptSelf.productExceptSelf2(input).contentToString())
-    val secondEndTime = System.currentTimeMillis()
-
-    val thirdStartTime = System.currentTimeMillis()
-    println(productExceptSelf.productExceptSelf3(input).contentToString())
-    val thirdEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
-    println("Third Solution execution time: ${thirdEndTime - thirdStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
 }

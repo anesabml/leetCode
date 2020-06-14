@@ -1,6 +1,7 @@
 package week1
 
 import java.util.*
+import kotlin.system.measureNanoTime
 
 class ThreeSum {
 
@@ -61,16 +62,12 @@ class ThreeSum {
 
 fun main() {
     val threeSum = ThreeSum()
+
     val input = intArrayOf(-1, 0, 1, 2, -1, -4)
 
-    val firstStartTime = System.currentTimeMillis()
-    println(threeSum.threeSum(input))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(threeSum.threeSum(input)) }
+    val secondSolutionTime = measureNanoTime { println(threeSum.threeSum2(input)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(threeSum.threeSum2(input))
-    val secondEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 }

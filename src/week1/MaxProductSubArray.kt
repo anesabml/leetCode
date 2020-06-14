@@ -1,6 +1,7 @@
 package week1
 
 import kotlin.math.max
+import kotlin.system.measureNanoTime
 
 class MaxProductSubArray {
 
@@ -61,21 +62,14 @@ class MaxProductSubArray {
 
 fun main() {
     val input = intArrayOf(-2, 3, -4)
+
     val maxProductSubArray = MaxProductSubArray()
 
-    val firstStartTime = System.currentTimeMillis()
-    println(maxProductSubArray.maxProductSubArray(input))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(maxProductSubArray.maxProductSubArray(input)) }
+    val secondSolutionTime = measureNanoTime { println(maxProductSubArray.maxProductSubArray2(input)) }
+    val thirdSolutionTime = measureNanoTime { println(maxProductSubArray.maxProductSubArray3(input)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(maxProductSubArray.maxProductSubArray2(input))
-    val secondEndTime = System.currentTimeMillis()
-
-    val thirdStartTime = System.currentTimeMillis()
-    println(maxProductSubArray.maxProductSubArray3(input))
-    val thirdEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
-    println("Third Solution execution time: ${thirdStartTime - thirdEndTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
 }

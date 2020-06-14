@@ -1,5 +1,7 @@
 package week1
 
+import kotlin.system.measureNanoTime
+
 class ValidAnagram {
 
     /** Sorting
@@ -83,24 +85,13 @@ fun main() {
 
     val validAnagram = ValidAnagram()
 
-    val firstStartTime = System.currentTimeMillis()
-    println(validAnagram.isAnagram(s, t))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(validAnagram.isAnagram(s, t)) }
+    val secondSolutionTime = measureNanoTime { println(validAnagram.isAnagram2(s, t)) }
+    val thirdSolutionTime = measureNanoTime { println(validAnagram.isAnagram3(s, t)) }
+    val forthSolutionTime = measureNanoTime { println(validAnagram.isAnagram4(s, t)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(validAnagram.isAnagram2(s, t))
-    val secondEndTime = System.currentTimeMillis()
-
-    val thirdStartTime = System.currentTimeMillis()
-    println(validAnagram.isAnagram3(s, t))
-    val thirdEndTime = System.currentTimeMillis()
-
-    val forthStartTime = System.currentTimeMillis()
-    println(validAnagram.isAnagram4(s, t))
-    val forthEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
-    println("Third Solution execution time: ${thirdEndTime - thirdStartTime}")
-    println("Forth Solution execution time: ${forthEndTime - forthStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
+    println("Forth Solution execution time: $forthSolutionTime")
 }

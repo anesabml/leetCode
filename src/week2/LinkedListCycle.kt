@@ -1,6 +1,7 @@
 package week2
 
 import java.util.*
+import kotlin.system.measureNanoTime
 
 
 class LinkedListCycle {
@@ -60,15 +61,10 @@ fun main() {
 
     val reverseLinkedList = LinkedListCycle()
 
-    val firstStartTime = System.currentTimeMillis()
-    reverseLinkedList.hasCycle(head)
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { reverseLinkedList.hasCycle(head) }
+    val secondSolutionTime = measureNanoTime { reverseLinkedList.hasCycle2(head) }
 
-    val secondStartTime = System.currentTimeMillis()
-    reverseLinkedList.hasCycle2(head)
-    val secondEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 
 }

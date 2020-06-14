@@ -1,6 +1,7 @@
 package week1
 
 import java.util.*
+import kotlin.system.measureNanoTime
 
 
 class GroupAnagrams {
@@ -54,22 +55,15 @@ class GroupAnagrams {
 
 fun main() {
     val input = arrayOf("eat", "tea", "tan", "ate", "nat", "bat")
+
     val groupAnagrams = GroupAnagrams()
 
-    val firstStartTime = System.currentTimeMillis()
-    println(groupAnagrams.groupAnagrams(input))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(groupAnagrams.groupAnagrams(input)) }
+    val secondSolutionTime = measureNanoTime { println(groupAnagrams.groupAnagrams2(input)) }
+    val thirdSolutionTime = measureNanoTime { println(groupAnagrams.groupAnagrams3(input)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(groupAnagrams.groupAnagrams2(input))
-    val secondEndTime = System.currentTimeMillis()
-
-    val thirdStartTime = System.currentTimeMillis()
-    println(groupAnagrams.groupAnagrams3(input))
-    val thirdEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
-    println("Third Solution execution time: ${thirdEndTime - thirdStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
 
 }

@@ -2,6 +2,7 @@ package week1
 
 import kotlin.math.max
 import kotlin.math.min
+import kotlin.system.measureNanoTime
 
 class MaxProfit {
     /** Brute force
@@ -39,17 +40,13 @@ class MaxProfit {
 }
 
 fun main() {
+    val input = intArrayOf(7, 1, 5, 3, 6, 4)
+
     val maxProfit = MaxProfit()
-    val input = intArrayOf(7,1,5,3,6,4)
 
-    val firstStartTime = System.currentTimeMillis()
-    println(maxProfit.maxProfit(input))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(maxProfit.maxProfit(input)) }
+    val secondSolutionTime = measureNanoTime { println(maxProfit.maxProfit2(input)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(maxProfit.maxProfit2(input))
-    val secondEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 }

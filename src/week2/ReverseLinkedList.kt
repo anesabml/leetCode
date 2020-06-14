@@ -1,5 +1,7 @@
 package week2
 
+import kotlin.system.measureNanoTime
+
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
 }
@@ -54,15 +56,10 @@ fun main() {
 
     val reverseLinkedList = ReverseLinkedList()
 
-    val firstStartTime = System.currentTimeMillis()
-    reverseLinkedList.reverseList(head)
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { reverseLinkedList.reverseList(head) }
+    val secondSolutionTime = measureNanoTime { reverseLinkedList.reverseList2(head) }
 
-    val secondStartTime = System.currentTimeMillis()
-    reverseLinkedList.reverseList2(head)
-    val secondEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 
 }

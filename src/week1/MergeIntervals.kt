@@ -2,6 +2,7 @@ package week1
 
 import java.lang.Integer.max
 import java.util.*
+import kotlin.system.measureNanoTime
 
 class MergeIntervals {
 
@@ -62,20 +63,18 @@ fun main() {
 
     val mergeIntervals = MergeIntervals()
 
-    val firstStartTime = System.currentTimeMillis()
-    mergeIntervals.merge(input).forEach {
-        print(it.contentToString())
+    val firstSolutionTime = measureNanoTime {
+        mergeIntervals.merge(input).forEach {
+            print(it.contentToString())
+        }
     }
-    val firstEndTime = System.currentTimeMillis()
-
     println()
-
-    val secondStartTime = System.currentTimeMillis()
-    mergeIntervals.merge2(input).forEach {
-        print(it.contentToString())
+    val secondSolutionTime = measureNanoTime {
+        mergeIntervals.merge2(input).forEach {
+            print(it.contentToString())
+        }
     }
-    val secondEndTime = System.currentTimeMillis()
 
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 }

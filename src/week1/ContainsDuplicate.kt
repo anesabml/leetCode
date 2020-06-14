@@ -1,5 +1,7 @@
 package week1
 
+import kotlin.system.measureNanoTime
+
 class ContainsDuplicate {
 
     /** Brute force Linear search
@@ -53,27 +55,17 @@ class ContainsDuplicate {
 }
 
 fun main() {
-    val containsDuplicate = ContainsDuplicate()
     val input = intArrayOf(1, 1, 1, 3, 3, 4, 3, 2, 4, 2)
 
-    val firstStartTime = System.currentTimeMillis()
-    println(containsDuplicate.containsDuplicate(input))
-    val firstEndTime = System.currentTimeMillis()
+    val containsDuplicate = ContainsDuplicate()
 
-    val secondStartTime = System.currentTimeMillis()
-    println(containsDuplicate.containsDuplicate2(input))
-    val secondEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(containsDuplicate.containsDuplicate(input)) }
+    val secondSolutionTime = measureNanoTime { println(containsDuplicate.containsDuplicate2(input)) }
+    val thirdSolutionTime = measureNanoTime { println(containsDuplicate.containsDuplicate3(input)) }
+    val forthSolutionTime = measureNanoTime { println(containsDuplicate.containsDuplicate4(input)) }
 
-    val thirdStartTime = System.currentTimeMillis()
-    println(containsDuplicate.containsDuplicate3(input))
-    val thirdEndTime = System.currentTimeMillis()
-
-    val forthStartTime = System.currentTimeMillis()
-    println(containsDuplicate.containsDuplicate4(input))
-    val forthEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
-    println("Third Solution execution time: ${thirdEndTime - thirdStartTime}")
-    println("Forth Solution execution time: ${forthEndTime - forthStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
+    println("Forth Solution execution time: $forthSolutionTime")
 }

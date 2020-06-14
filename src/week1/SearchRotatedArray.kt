@@ -35,6 +35,7 @@ class SearchRotatedArray {
 
 fun main() {
     val input = intArrayOf(4, 5, 6, 7, 0, 1, 2)
+
     val searchRotatedArray = SearchRotatedArray()
 
     println(searchRotatedArray.search(input, 0))

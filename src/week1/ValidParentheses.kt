@@ -1,6 +1,7 @@
 package week1
 
 import java.util.*
+import kotlin.system.measureNanoTime
 
 
 class ValidParentheses {
@@ -64,14 +65,9 @@ fun main() {
 
     val validParentheses = ValidParentheses()
 
-    val firstStartTime = System.currentTimeMillis()
-    println(validParentheses.isValid(input))
-    val firstEndTime = System.currentTimeMillis()
+    val firstSolutionTime = measureNanoTime { println(validParentheses.isValid(input)) }
+    val secondSolutionTime = measureNanoTime { println(validParentheses.isValid2(input)) }
 
-    val secondStartTime = System.currentTimeMillis()
-    println(validParentheses.isValid2(input))
-    val secondEndTime = System.currentTimeMillis()
-
-    println("First Solution execution time: ${firstEndTime - firstStartTime}")
-    println("Second Solution execution time: ${secondEndTime - secondStartTime}")
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
 }
