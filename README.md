@@ -19,4 +19,5 @@ LeetCode Kotlin solutions
 ## Week 2:
 1. [Reverse LinkedList](https://leetcode.com/problems/reverse-linked-list/) 
 2. [LinkedList cycle](https://leetcode.com/problems/linked-list-cycle/) 
-3. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) 
+3. [Container with most water](https://leetcode.com/problems/container-with-most-water/) 
+4. [Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
