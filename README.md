@@ -21,3 +21,4 @@ LeetCode Kotlin solutions
 2. [LinkedList cycle](https://leetcode.com/problems/linked-list-cycle/) 
 3. [Container with most water](https://leetcode.com/problems/container-with-most-water/) 
 4. [Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
+5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) 
