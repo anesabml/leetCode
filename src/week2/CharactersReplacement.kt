@@ -1,5 +1,7 @@
 package week2
 
+import kotlin.math.max
+
 class CharactersReplacement {
 
     /** Sliding window
@@ -15,6 +17,8 @@ class CharactersReplacement {
      * If number of changes is bigger then K we shrink the Array by incrementing the start point
      * and decrementing the count of the removed character from the array (because we removed it).
      * In the end we are keeping track of the max length of the window.
+     * Time complexity : 0(nk)
+     * Space complexity : O(1)
      */
     fun characterReplacement(s: String, k: Int): Int {
         var start = 0
@@ -23,12 +27,12 @@ class CharactersReplacement {
         val characterCounts = IntArray(26)
         for (end in s.indices) {
             characterCounts[s[end] - 'A'] += 1
-            maxCount = maxCount.coerceAtLeast(characterCounts[s[end] - 'A'])
+            maxCount = max(maxCount, characterCounts[s[end] - 'A'])
             while (end - start + 1 - maxCount > k) {
                 characterCounts[s[start] - 'A'] -= 1
                 start += 1
             }
-            maxLength = maxLength.coerceAtLeast(end - start + 1)
+            maxLength = max(maxLength, end - start + 1)
         }
         return maxLength
     }

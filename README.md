@@ -22,3 +22,4 @@ LeetCode Kotlin solutions
 3. [Container with most water](https://leetcode.com/problems/container-with-most-water/) 
 4. [Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) 
+6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 

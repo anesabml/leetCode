@@ -1,6 +1,7 @@
 package week2
 
 import kotlin.math.max
+import kotlin.system.measureNanoTime
 
 
 class LongestNonRepeatingSubstring {
@@ -81,5 +82,11 @@ fun main() {
 
     val longestNonRepeatingSubstring = LongestNonRepeatingSubstring()
 
-    println(longestNonRepeatingSubstring.lengthOfLongestSubstring3(input))
+    val firstSolutionTime = measureNanoTime { println(longestNonRepeatingSubstring.lengthOfLongestSubstring(input)) }
+    val secondSolutionTime = measureNanoTime { println(longestNonRepeatingSubstring.lengthOfLongestSubstring2(input)) }
+    val thirdSolutionTime = measureNanoTime { println(longestNonRepeatingSubstring.lengthOfLongestSubstring3(input)) }
+
+    println("First Solution execution time: $firstSolutionTime")
+    println("Second Solution execution time: $secondSolutionTime")
+    println("Third Solution execution time: $thirdSolutionTime")
 }
