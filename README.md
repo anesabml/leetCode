@@ -23,3 +23,4 @@ LeetCode Kotlin solutions
 4. [Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 5. [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) 
 6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 
+7. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
