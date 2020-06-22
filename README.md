@@ -25,3 +25,4 @@ LeetCode Kotlin solutions
 6. [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 
 7. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
 8. [Number of islands](https://leetcode.com/problems/number-of-islands/) 
+9. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
