@@ -40,8 +40,8 @@ class PacificAtlantic {
         return output
     }
 
-    private fun dfs(matrix: Array<IntArray>, visited: Array<BooleanArray>, height: Int, i: Int, j: Int) {
-        if (i < 0 || i >= matrix.size || j < 0 || j >= matrix[0].size || matrix[i][j] < height || visited[i][j]) {
+    private fun dfs(matrix: Array<IntArray>, visited: Array<BooleanArray>, prevHeight: Int, i: Int, j: Int) {
+        if (i < 0 || i >= matrix.size || j < 0 || j >= matrix[0].size || matrix[i][j] < prevHeight || visited[i][j]) {
             return
         }
 
@@ -91,8 +91,8 @@ class PacificAtlantic {
         return output
     }
 
-    private fun dfs(matrix: Array<IntArray>, visited: Array<IntArray>, height: Int, i: Int, j: Int, ocean: Int) {
-        if (i < 0 || i >= matrix.size || j < 0 || j >= matrix[0].size || matrix[i][j] < height || visited[i][j] == ocean || visited[i][j] == BOTH) {
+    private fun dfs(matrix: Array<IntArray>, visited: Array<IntArray>, prevHeight: Int, i: Int, j: Int, ocean: Int) {
+        if (i < 0 || i >= matrix.size || j < 0 || j >= matrix[0].size || matrix[i][j] < prevHeight || visited[i][j] == ocean || visited[i][j] == BOTH) {
             return
         }
 
