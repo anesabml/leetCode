@@ -2,12 +2,6 @@ package week3
 
 import java.util.*
 
-
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
-
 class ValidateBST {
 
     fun isValidBST(root: TreeNode?): Boolean {

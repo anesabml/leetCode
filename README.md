@@ -31,3 +31,4 @@ LeetCode Kotlin solutions
 
 ## Week 3:
 1. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree/) 
+2. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) 
