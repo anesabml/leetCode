@@ -33,3 +33,4 @@ LeetCode Kotlin solutions
 1. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree/) 
 2. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) 
 3. [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
+4. [Serialize and deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) 
