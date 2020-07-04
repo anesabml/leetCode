@@ -22,7 +22,7 @@ LeetCode Kotlin solutions
 3. [Container with most water](https://leetcode.com/problems/container-with-most-water/) 
 4. [Find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) 
 5. [Longest repeating character replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) 
-6. [Longest Substring without repeating xharacters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 
+6. [Longest Substring without repeating characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) 
 7. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) 
 8. [Number of islands](https://leetcode.com/problems/number-of-islands/) 
 9. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
@@ -34,3 +34,4 @@ LeetCode Kotlin solutions
 2. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) 
 3. [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
 4. [Serialize and deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) 
+5. [Construct Binary Tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
