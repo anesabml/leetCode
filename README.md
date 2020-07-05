@@ -35,3 +35,4 @@ LeetCode Kotlin solutions
 3. [Non overlapping intervals](https://leetcode.com/problems/non-overlapping-intervals/) 
 4. [Serialize and deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) 
 5. [Construct Binary Tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
+6. [Top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/) 
