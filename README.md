@@ -37,4 +37,5 @@ LeetCode Kotlin solutions
 5. [Construct Binary Tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) 
 6. [Top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/) 
 7. [Clone graph](https://leetcode.com/problems/clone-graph/) 
-7. [Course schedule](https://leetcode.com/problems/course-schedule/) 
+8. [Course schedule](https://leetcode.com/problems/course-schedule/) 
+9. [Binary Tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
