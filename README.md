@@ -40,3 +40,4 @@ LeetCode Kotlin solutions
 8. [Course schedule](https://leetcode.com/problems/course-schedule/) 
 9. [Binary Tree maximum path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) 
 10. [Maximum depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
+11. [Same tree](https://leetcode.com/problems/same-tree/) 
