@@ -42,3 +42,4 @@ LeetCode Kotlin solutions
 10. [Maximum depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
 11. [Same tree](https://leetcode.com/problems/same-tree/) 
 12. [Binary Tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
+13. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
