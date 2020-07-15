@@ -43,3 +43,4 @@ LeetCode Kotlin solutions
 11. [Same tree](https://leetcode.com/problems/same-tree/) 
 12. [Binary Tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
 13. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
+14. [Add and search word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) 
