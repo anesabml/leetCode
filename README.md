@@ -42,6 +42,9 @@ LeetCode Kotlin solutions
 10. [Maximum depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) 
 11. [Same tree](https://leetcode.com/problems/same-tree/) 
 12. [Binary Tree level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) 
-13. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) 
-14. [Add and search word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) 
-15. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
+13. [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+## Week 4: 
+1. [Add and search word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) 
+2. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
+3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
