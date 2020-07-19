@@ -48,3 +48,4 @@ LeetCode Kotlin solutions
 1. [Add and search word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) 
 2. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
 3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
+4. [Lowest common ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) 
