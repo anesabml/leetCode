@@ -50,3 +50,4 @@ LeetCode Kotlin solutions
 3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
 4. [Lowest common ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) 
 4. [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+5. [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
