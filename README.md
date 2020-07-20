@@ -27,7 +27,7 @@ LeetCode Kotlin solutions
 8. [Number of islands](https://leetcode.com/problems/number-of-islands/) 
 9. [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) 
 10. [Palindromic substrings](https://leetcode.com/problems/palindromic-substrings/) 
-10. [Pacific Atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
+11. [Pacific Atlantic water flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) 
 
 ## Week 3:
 1. [Validate BST](https://leetcode.com/problems/validate-binary-search-tree/) 
