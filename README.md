@@ -49,5 +49,7 @@ LeetCode Kotlin solutions
 2. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
 3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
 4. [Lowest common ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) 
-4. [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-5. [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/) 
+5. [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+6. [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+7. [Find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
+ 
