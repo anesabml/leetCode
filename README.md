@@ -52,4 +52,5 @@ LeetCode Kotlin solutions
 5. [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 6. [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 7. [Find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
+8. [Insert interval](https://leetcode.com/problems/insert-interval/)
  
