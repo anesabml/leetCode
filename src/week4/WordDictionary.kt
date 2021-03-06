@@ -58,6 +58,7 @@ class WordDictionary {
 }
 
 fun main() {
+    val word = "Anes"
     var obj = WordDictionary()
     obj.addWord(word)
     var param_2 = obj.search(word)

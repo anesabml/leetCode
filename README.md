@@ -46,13 +46,16 @@ LeetCode Kotlin solutions
 
 ## Week 4: 
 1. [Add and search word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) 
-2. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/) 
-3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) 
-4. [Lowest common ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) 
+2. [Subtree of another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+3. [Kth smallest element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+4. [Lowest common ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 5. [Merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 6. [Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 7. [Find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
 8. [Insert interval](https://leetcode.com/problems/insert-interval/)
 9. [Longest consecutive sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 10. [Word search II](https://leetcode.com/problems/word-search-ii/)
- 
+
+## Week 5:
+
+1. [Next greater element](https://leetcode.com/problems/next-greater-element-iii/)
